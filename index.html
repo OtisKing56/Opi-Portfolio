@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opi personal website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="icon" href="OPI.jpg" type="image/png">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="home-page">
+        <img src="OPI.jpg" alt="", width="300px">
+    </div>
+
+    <div class="home-page">
+      <h1>Hi, I'm Opi Ouallo</h1>
+      <h3>Urban Planner & experience GIS Technician</h3>
+      <br>
+    </div>
+    <div class="resume-link">
+        <a href="https://Opi-resume.tiiny.site/" target="_blank" class="resume-link">Resume</a>
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" class="fa-linkedin">Linkedin</a>
+            <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage" target="_blank" class="fa-indeed">Indeed</i>
+            
+            </a>
+        
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-page">
+      <h2>About Me</h2>
+      <p>I am passinate about Urban Development and Urban sustainabilty, especially equitable transportation</p>
+      <p>I am a skilled GIS Techician and with experience performing analysis with ERSI software or coding.</p>
+      <p>I was born in Cote D'Ivorie [Ivory Coast] but grew up in Sioux Falls since I was 4 years old. Recieved my Bachelor's degree in Geography and Geograpical Information Science [GIS] and a minor in French. All with a focus on West African city urbanization. 
+        Working towards my Master's through South Dakota state University. In my freetime, I enjoy being with my family and friend. I enjoy playing Basketball, Soccer, traveling, cooking, and drawing/painting.
+      </p>
+      <div>
+        <img src="Img.JPG">
+      
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="portfolio-page">
+      <h2>Education</h2>
+      <div class="project">
+        <p>South Dakota State University, B,S 2018-2023</p>
+        <p>Double Major | Geography and GIS</p>
+        <h3>Minor | French</h3>
+        <p>A personal website showcasing my knowlegde and experience with GIS and Urban Development.</p>
+      <img src="Opi img.jpg">
+      </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-page">
+      <h2>Contact Me</h2>
+  
+      <form action="https://formspree.io/f/xrgndrva" method="POST" class="contact__form" onsubmit="sendEmail(); reset(); return false;">
+        <div class="contact__input">
+          <input type="text" id="name" name="name" placeholder="Name" required="">
+        </div>
+        <div class="contact__input">
+          <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="contact__input">
+          <textarea id="message" name="message" placeholder="Message" required=""></textarea>
+        </div>
+        <div>
+          <button class="btn btn--outline--dark contact__button" type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+
+</body>
+
+</html>
